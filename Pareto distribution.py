@@ -51,7 +51,7 @@ def Trade(Peoplewithmoney, therepeat=0):
 
 
 print("After Iteration................................")
-print(Trade(peoplewithmoney, 600))
+print(Trade(peoplewithmoney, 100))
 
 
 # In[ ]:
