@@ -1,26 +1,26 @@
-kubectl get pods carts-6bfcf84f4-f6hb4 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods carts-5c79bbfb8d-hc2j5 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods carts-db-6bfc588c5f-tv74s -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods carts-db-7fd49dcc59-9dwtd -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods catalogue-db-99cbcbb88-fn5v6 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods catalogue-64c46b45c6-g88p7 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods catalogue-fb589d5bf-9n4jf -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods catalogue-db-7f56948955-c72nf -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods front-end-b5f568888-hzfbg -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods front-end-c5c69fbc7-254qj -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods orders-54d7666f75-mc6rn -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods orders-679d9559-wqrxt -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods orders-db-7888765df9-gddg9 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods orders-db-8658c7b5f5-84842 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods payment-7d8497bcd7-rtbmc -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods payment-6c8974fcd-rsgr5 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods queue-master-6bb75d8867-tnnfr -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods queue-master-845fcc667d-t8wpg -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods rabbitmq-5f787df94b-jvxk5 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods rabbitmq-5b9d4446f7-nsmsv -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods shipping-58bc954d85-t7nr4 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods shipping-556b68645-wnnhd -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods user-6b5f6896c4-zsrbh -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods user-7f5c94b66f-4kc9b -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
-kubectl get pods user-db-6d5c9f6d84-dsfn8 -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
+kubectl get pods user-db-7996b8d48b-cv9wn -n sock-shop -o jsonpath='{.spec.containers[*].resources}'
 
