@@ -21,4 +21,4 @@ def pictword(word, wordCount):
     f.close()
 
 if __name__ == "__main__":
-    pictword("ttmmoouseibcz",7)
+    pictword("fjadjffdsasaf",5)
