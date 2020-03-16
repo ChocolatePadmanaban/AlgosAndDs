@@ -11,3 +11,4 @@
 11,55
 12,4
 13,5
+kubectl get deploy telemetry -n mesh7-system -o jsonpath='{.spec.containers[*].image}'

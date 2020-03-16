@@ -8,7 +8,7 @@ def pictword(word, wordCount):
     
     word=[i for i in word]
     word.sort()
-    perm= permutations(word, wordCount)
+    perm= set(permutations(word, wordCount))
     answer=[]
     for i in perm:
         
@@ -16,9 +16,10 @@ def pictword(word, wordCount):
         if word1 in lines:
             answer.append(word1)
             print(word1)
-    answer=set(answer)
+    answer=list(set(answer))
+    answer.sort()
     print(answer)
     f.close()
 
 if __name__ == "__main__":
-    pictword("fjadjffdsasaf",5)
+    pictword("gbhotubillwu",9)

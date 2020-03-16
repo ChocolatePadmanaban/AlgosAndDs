@@ -4,9 +4,9 @@ def kuberCommand(ReadFile, WriteFile):
 
     for line in readFile.readlines():
         #writeFile.write("kubectl get pods "+str(line).rstrip()+" -n sock-shop -o jsonpath='{.spec.containers[*].resources}'"+"\n\n")
-        writeFile.write("kubectl get pods "+str(line).rstrip()+" -n sock-shop -o jsonpath='{.spec.containers[*].name}'"+"\n\n")
+        #writeFile.write("kubectl get pods "+str(line).rstrip()+" -n sock-shop -o jsonpath='{.spec.containers[*].name}'"+"\n\n")
         #writeFile.write("kubectl get crd "+str(line).rstrip()+" --all-namespaces --show-labels \n\n")
-        #writeFile.write("kubectl logs "+str(line).rstrip()+" -n kavach-system \n\n")
+        writeFile.write("kubectl logs "+str(line).rstrip().split()[0]+" -n mesh7-system > logfilesinit/"+str(line).rstrip().split()[0]+".txt \n\n")
         #writeFile.write( "kubectl get pods  "+str(line).rstrip()+" -n mesh7-system -o jsonpath='{.spec.containers[*].resources}'"+"\n\n")    
     readFile.close()
     writeFile.close()
