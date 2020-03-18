@@ -36,4 +36,5 @@ if __name__ == "__main__":
     algo=lessPrimeList1(100003)
     end = time.time()
     print("Time 2  ",end - start)
-    print(nonalgo==algo)
+    print("Is non algo is equal",nonalgo==algo)
+    print("nonalgo",nonalgo)
