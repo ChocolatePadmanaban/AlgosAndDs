@@ -1,0 +1,12 @@
+config-service-6565f5865c-szj2q     1/1     Running   0          9m39s
+mesh7-micro-proxy-bwps6             1/1     Running   0          8m57s
+mesh7-micro-proxy-k4d6c             1/1     Running   0          8m57s
+mesh7-micro-proxy-ndtt5             1/1     Running   0          8m57s
+mesh7-micro-proxy-qph64             1/1     Running   0          8m57s
+mesh7-micro-proxy-t86rh             1/1     Running   0          8m57s
+mesh7-micro-proxy-vb9sf             1/1     Running   0          8m57s
+mesh7-micro-proxy-zbwm4             1/1     Running   0          8m57s
+mesh7-micro-proxy-zd4j4             1/1     Running   0          8m57s
+policy-789564fbc6-s7mtf             1/1     Running   0          9m39s
+telemetry-6df7449597-fp8zl          1/1     Running   0          9m38s
+telemetry-client-5f95bd7c7b-tfq4q   1/1     Running   0          9m39s

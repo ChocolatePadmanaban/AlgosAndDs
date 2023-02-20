@@ -1,0 +1,744 @@
+kubectl config delete-context   CURRENT
+
+kubectl config delete-context   NAME
+
+kubectl config delete-context   CLUSTER
+
+kubectl config delete-context   AUTHINFO
+
+kubectl config delete-context   NAMESPACE
+
+kubectl config delete-context   gke_ashwin-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_ashwin-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_ashwin-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_ashwin-devproject_us-central1_thecontroller
+
+kubectl config delete-context   gke_ashwin-devproject_us-central1_thecontroller
+
+kubectl config delete-context   gke_ashwin-devproject_us-central1_thecontroller
+
+kubectl config delete-context   gke_gabasha-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_gabasha-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_gabasha-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_karthikeyan-devproject_us-central1_dnd-ctrl
+
+kubectl config delete-context   gke_karthikeyan-devproject_us-central1_dnd-ctrl
+
+kubectl config delete-context   gke_karthikeyan-devproject_us-central1_dnd-ctrl
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-cli-29
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-cli-29
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-cli-29
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-cli1
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-cli1
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-cli1
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-cli2
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-cli2
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-cli2
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-1
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-1
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-1
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-11
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-11
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-11
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-12
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-12
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-12
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-2
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-2
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client-2
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client2
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client2
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1-a_dnd-client2
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-08jan
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-08jan
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-08jan
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-08jan1
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-08jan1
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-08jan1
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ctrl-202
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ctrl-202
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ctrl-202
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ctrl-3012
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ctrl-3012
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ctrl-3012
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ten-033
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ten-033
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ten-033
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ten-252
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ten-252
+
+kubectl config delete-context   gke_kavach-controller-dev_us-central1_dnd-ten-252
+
+kubectl config delete-context   gke_kumar-devproject_us-central1-b_a-client
+
+kubectl config delete-context   gke_kumar-devproject_us-central1-b_a-client
+
+kubectl config delete-context   gke_kumar-devproject_us-central1-b_a-client
+
+kubectl config delete-context   gke_kumar-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_kumar-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_kumar-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_kumar-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_kumar-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_kumar-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_mani-devproject_us-central1_controller-test-micro-30-02-30-01
+
+kubectl config delete-context   gke_mani-devproject_us-central1_controller-test-micro-30-02-30-01
+
+kubectl config delete-context   gke_mani-devproject_us-central1_controller-test-micro-30-02-30-01
+
+kubectl config delete-context   gke_mani-devproject_us-central1_d-ctrl
+
+kubectl config delete-context   gke_mani-devproject_us-central1_d-ctrl
+
+kubectl config delete-context   gke_mani-devproject_us-central1_d-ctrl
+
+kubectl config delete-context   gke_pavithra-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_pavithra-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_pavithra-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_pavithra-devproject_us-central1_thecontroller
+
+kubectl config delete-context   gke_pavithra-devproject_us-central1_thecontroller
+
+kubectl config delete-context   gke_pavithra-devproject_us-central1_thecontroller
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-a_a-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-a_a-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-a_a-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-a_client-sofi
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-a_client-sofi
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-a_client-sofi
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-a_temp-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-a_temp-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-a_temp-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_a-crl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_a-crl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_a-crl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_a-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_a-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_a-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_b-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_b-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_b-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_b-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_b-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_b-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_c-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_c-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_c-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_c-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_c-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_c-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_d-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_d-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_d-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_d-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_d-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_d-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_democli
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_democli
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_democli
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_democon
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_democon
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_democon
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_k-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_k-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_k-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_k-clust
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_k-clust
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_k-clust
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_k-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_k-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_k-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_l-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_l-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_l-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_l-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_l-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_l-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_m-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_m-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_m-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_s-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_s-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_s-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_sofi-poc
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_sofi-poc
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-b_sofi-poc
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-c_a-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-c_a-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-c_a-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-c_cluster-1
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-c_cluster-1
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1-c_cluster-1
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_a-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_a-client
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_a-client
+
+kubectl config delete-context   *
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_b-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_b-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_b-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_c-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_c-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_c-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_cc-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_cc-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_cc-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_d-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_d-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_d-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-08jan1
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-08jan1
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-08jan1
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-221
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-221
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-221
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-231
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-231
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-231
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-241
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-241
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-241
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-251
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-251
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-251
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-267
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-267
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-267
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-271
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-271
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-271
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-281
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-281
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-281
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-291
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-291
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-291
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-293
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-293
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-293
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-300
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-300
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-300
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-301
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-301
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-301
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-304
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-304
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-304
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-306
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-306
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-306
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-309
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-309
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-309
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-310
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-310
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-310
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-311
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-311
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-311
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-3111
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-3111
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-3111
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-32
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-32
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-32
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-42
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-42
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-42
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-aws
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-aws
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-aws
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-poc
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-poc
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ctrl-poc
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-mctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-mctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-mctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-metrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-metrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-metrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-013
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-013
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-013
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-023
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-023
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-023
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-033
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-033
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-033
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-103
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-103
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-103
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-113
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-113
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-113
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-133
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-133
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-133
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-162
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-162
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-162
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-172
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-172
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-172
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-182
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-182
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-182
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-1821
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-1821
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-1821
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-192
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-192
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-192
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-212
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-212
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-212
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-242
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-242
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-242
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-272
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-272
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-272
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-282
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-282
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-282
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-dev
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-dev
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-sofi-dev
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-strl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-strl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-strl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ten-033
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ten-033
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_dnd-ten-033
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_l-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_l-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_l-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_large
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_large
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_large
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_m-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_m-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_m-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_r-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_r-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_r-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_s-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_s-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_s-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_sm-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_sm-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_sm-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_small
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_small
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_small
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_u-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_u-ctrl
+
+kubectl config delete-context   gke_pradeep-devproject_us-central1_u-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1-a_dnd-client
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1-a_dnd-client
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1-a_dnd-client
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1-a_dnd-client1
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1-a_dnd-client1
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1-a_dnd-client1
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1-b_c-client
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1-b_c-client
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1-b_c-client
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_a-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_c-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_c-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_c-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_dnd-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_dnd-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_dnd-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_dnd-ctrl1
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_dnd-ctrl1
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_dnd-ctrl1
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_rganesh-devproject_us-central1_k-ctrl
+
+kubectl config delete-context   gke_vinothk-devproject_us-central1_dnd-vm
+
+kubectl config delete-context   gke_vinothk-devproject_us-central1_dnd-vm
+
+kubectl config delete-context   gke_vinothk-devproject_us-central1_dnd-vm
+
+kubectl config delete-context   gke_vinothk-devproject_us-east1_qco
+
+kubectl config delete-context   gke_vinothk-devproject_us-east1_qco
+
+kubectl config delete-context   gke_vinothk-devproject_us-east1_qco
+
+kubectl config delete-context   gke_vishnub-devproject_us-central1_dnd-spd
+
+kubectl config delete-context   gke_vishnub-devproject_us-central1_dnd-spd
+
+kubectl config delete-context   gke_vishnub-devproject_us-central1_dnd-spd
+
+kubectl config delete-context   gke_yuvab-devproject_us-central1_client1
+
+kubectl config delete-context   gke_yuvab-devproject_us-central1_client1
+
+kubectl config delete-context   gke_yuvab-devproject_us-central1_client1
+
