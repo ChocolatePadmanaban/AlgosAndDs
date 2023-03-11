@@ -109,7 +109,66 @@ def hangman(secret_word):
     Follows the other limitations detailed in the problem write-up.
     '''
     # FILL IN YOUR CODE HERE AND DELETE "pass"
-    pass
+    len_secret_word=len(secret_word)
+    no_of_guesses=6
+    no_of_warnings=3
+    gameWon=False
+    print("Welcome to the game Hangman!")
+    print("I am thinking of a word that is",len_secret_word,"letters long.") 
+    print("You have 3 warnings left.")
+    print(secret_word)# for testing
+    letters_guessed =[]
+    available_letters = get_available_letters(letters_guessed)
+    while no_of_guesses > 0 :
+        print("-------------")
+        print("You have", no_of_guesses,"left.")
+        print("Available letters:", available_letters)
+        input_guess=input("Please guess a letter:")
+        input_guess=input_guess.lower()
+        if str.isalpha(input_guess[0]) and (input_guess[0] in available_letters):
+            if input_guess[0] in secret_word:
+                letters_guessed+=[input_guess[0]]
+                available_letters=get_available_letters(letters_guessed)
+                print("Good guess:",get_guessed_word(secret_word, letters_guessed))
+            else:
+                print("Oops! That letter is not in my word:", get_guessed_word(secret_word, letters_guessed))
+                available_letters=available_letters.replace(input_guess[0],'')
+                no_of_guesses-=1
+        elif not str.isalpha(input_guess[0]):
+            if no_of_warnings > 0 :
+                no_of_warnings-=1
+                print("Oops! That is not a valid letter. You now have",no_of_warnings,"warnings:",get_guessed_word(secret_word,letters_guessed))
+            else:
+                no_of_guesses-=1
+                print("Oops! That is not a valid letter. You have no warnings left so you lose one guess:", get_guessed_word(secret_word,letters_guessed))        
+        elif input_guess[0] not  in available_letters:
+            if no_of_warnings>0:
+                no_of_warnings-=1
+                print("Oops! You've already guessed that letter. You now have",no_of_warnings,"warnings:",get_guessed_word(secret_word,letters_guessed))
+            else:
+                no_of_guesses-=1
+                print("Oops! You've already guessed that letter. You have no warnings left so you lose one guess:",get_guessed_word(secret_word,letters_guessed))
+            
+        if get_guessed_word(secret_word, letters_guessed) == secret_word :
+            unique_letters=len(set(list(secret_word)))
+            print("Congratulations, you won!")
+            print("Your total score for this game is:", no_of_guesses*unique_letters)
+            gameWon=True
+            break
+    if not gameWon:
+        print("Sorry, you ran out of guesses. The word was", secret_word+'.')
+    
+
+            
+            
+
+                
+            
+
+            
+            
+
+
 
 
 
