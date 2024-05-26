@@ -196,5 +196,18 @@ func ps1c() {
 	fmt.Println("Steps in bisection search: ", steps)
 }
 func main() {
-	ps1a()
+	if len(os.Args) > 1 {
+		switch os.Args[1] {
+		case "ps1a":
+			ps1a()
+		case "ps1b":
+			ps1b()
+		case "ps1c":
+			ps1c()
+		default:
+			fmt.Println("Proper arguments are ps1a or ps1b or ps1c")
+		}
+	} else {
+		fmt.Println("Proper arguments are ps1a or ps1b or ps1c")
+	}
 }

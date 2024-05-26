@@ -43,6 +43,7 @@ program print results in the format shown in the test cases below.**
 
 **Test Case 1**
 ```
+% go run main.go  ps1a
 Enter your annual salary:​ 120000
 Enter the percent of your salary to save, as a decimal:​ .10
 Enter the cost of your dream home:​ 1000000
@@ -51,6 +52,7 @@ Number of months:​ 183
 
 **Test Case 2**
 ```
+% go run main.go  ps1a
 Enter your annual salary:​ 80000
 Enter the percent of your salary to save, as a decimal:​ .15
 Enter the cost of your dream home:​ 500000
@@ -82,6 +84,7 @@ required down payment percentage is 0.25 (or 25%). Have the user enter the follo
 
 **Test Case 1**
 ```
+% go run main.go  ps1b
 Enter your starting annual salary:​ 120000
 Enter the percent of your salary to save, as a decimal:​ .05
 Enter the cost of your dream home: ​500000
@@ -91,6 +94,7 @@ Number of months:​ 142
 
 **Test Case 2**
 ```
+% go run main.go  ps1b
 Enter your starting annual salary:​ 80000
 Enter the percent of your salary to save, as a decimal:​ .1
 Enter the cost of your dream home: ​800000
@@ -100,6 +104,7 @@ Number of months:​ 159
 
 **Test Case 3**
 ```
+% go run main.go  ps1b
 Enter your starting annual salary:​ 75000
 Enter the percent of your salary to save, as a decimal:​ .05
 Enter the cost of your dream home:​ 1500000
@@ -143,6 +148,7 @@ should print out a decimal (e.g. 0.0704 for 7.04%).
 
 **Test Case 1**
 ```
+% go run main.go  ps1c
 Enter the starting salary:​ 150000
 Best savings rate:​ 0.4411
 Steps in bisection search:​ 12
@@ -150,6 +156,7 @@ Steps in bisection search:​ 12
 
 **Test Case 2**
 ```
+% go run main.go  ps1c
 Enter the starting salary:​ 300000
 Best savings rate:​ 0.2206
 Steps in bisection search:​ 9
@@ -157,6 +164,7 @@ Steps in bisection search:​ 9
 
 **Test Case 3**
 ```
+% go run main.go  ps1c
 Enter the starting salary:​ 10000
 It is not possible to pay the down payment in three years.
 ```
