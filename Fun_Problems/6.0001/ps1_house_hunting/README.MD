@@ -2,6 +2,14 @@
 layout: default
 ---
 
+### Before We Run this code do 
+
+```
+git clone https://github.com/ChocolatePadmanaban/AlgosAndDs.git
+export ALGOS_DS_REPO=`pwd`/AlgosAndDs
+cd $ALGOS_DS_REPO/Fun_Problems/6.0001/ps1_house_hunting
+```
+
 # House Hunting
 
 
