@@ -1,4 +1,4 @@
-package main
+package Double_linked_list
 
 import (
 	"fmt"
