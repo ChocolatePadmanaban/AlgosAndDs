@@ -10,3 +10,4 @@ layout: default
 ## Fun Problems
 These Problems are take form Mit opencourseware 6.0001 course 
 - [PS1 House Hunting Golang](./Fun_Problems/6.0001/ps1_house_hunting/README.html)
+- [PS1 House Hunting C](./Fun_Problems/6.0001/ps1_house_hunting/README_C.html)
