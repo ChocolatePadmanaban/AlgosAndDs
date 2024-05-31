@@ -10,7 +10,7 @@ export ALGOS_DS_REPO=`pwd`/AlgosAndDs
 cd $ALGOS_DS_REPO/Fun_Problems/6.0001/ps1_house_hunting
 ```
 
-# House Hunting golang
+# House Hunting C
 
 
 ## Part A : House Hunting Basic
@@ -51,7 +51,8 @@ program print results in the format shown in the test cases below.**
 
 **Test Case 1**
 ```
-% go run main.go  ps1a
+% gcc ps1a.c -o ps1a
+% ./ps1a
 Enter your annual salary:​ 120000
 Enter the percent of your salary to save, as a decimal:​ .10
 Enter the cost of your dream home:​ 1000000
@@ -60,7 +61,8 @@ Number of months:​ 183
 
 **Test Case 2**
 ```
-% go run main.go  ps1a
+% gcc ps1a.c -o ps1a
+% ./ps1a
 Enter your annual salary:​ 80000
 Enter the percent of your salary to save, as a decimal:​ .15
 Enter the cost of your dream home:​ 500000
@@ -69,51 +71,37 @@ Number of months:​ 105
 
 **Code**
 ```
-func ps1a() {
-	// Prompt the user for input
-	fmt.Print("Enter your annual salary: ")
+#include <stdio.h>
 
-	// Get Annuual Salary
-	annual_salary, err := getFloatInput()
-	if err != nil {
-		fmt.Println("Error:", err)
-		return
-	}
-
-	// Convert to monthy Salary
-	monthly_salary := annual_salary / 12
-
-	// Prompt the user for input
-	fmt.Print("Enter the percent of your salary to save, as a decimal: ")
-
-	// get The Portion if salary to be saved
-	portion_saved, err := getFloatInput()
-	if err != nil {
-		fmt.Println("Error:", err)
-		return
-	}
-
-	// Prompt the user for input
-	fmt.Print("Enter the cost of your dream home: ")
-
-	// get The cost of your Dream Home
-	total_cost, err := getFloatInput()
-	if err != nil {
-		fmt.Println("Error:", err)
-		return
-	}
-
-	portion_down_payment := .25 * total_cost
-	current_savings := 0.0
-	r := 0.04
-	months := 0
-
-	// do the iteration to calculate number of months recuired for downpayment
-	for current_savings < portion_down_payment {
-		current_savings = current_savings + (current_savings * r / 12) + (portion_saved * monthly_salary)
-		months += 1
-	}
-	fmt.Println("Number of months:", months)
+int main() {
+    float annual_salary,portion_saved , total_cost;
+    printf("Enter your annual salary: ");
+    if (scanf("%f",&annual_salary) != 1){
+        printf("Invalid input. Please enter a valid floating-point number.\n");
+        return 1;
+    }
+    printf("Enter the percent of your salary to save, as a decimal: ");
+    if (scanf("%f", &portion_saved) != 1) {
+        printf("Invalid input. Please enter a valid floating-point number.\n");
+        return 1;   
+    }
+    printf("Enter the cost of your dream house: ");
+    if (scanf("%f", &total_cost) != 1) {
+        printf("Invalid input. Please enter a valid floating-point number.\n");
+        return 1;   
+    }
+    float current_savings , portion_down_payment , monthly_salary;
+    current_savings = 0 ;
+    portion_down_payment =.25 * total_cost ;
+    monthly_salary = annual_salary/12;
+    int months = 0;
+    float r = 0.04; //intrest rate
+    while (current_savings <= portion_down_payment) {
+        months += 1;
+        current_savings = current_savings + (current_savings * r/12) + (portion_saved * monthly_salary);
+    }
+    printf("Number of months: %d\n", months);
+    return 0;
 }
 ```
 
@@ -142,7 +130,8 @@ required down payment percentage is 0.25 (or 25%). Have the user enter the follo
 
 **Test Case 1**
 ```
-% go run main.go  ps1b
+% gcc ps1b.c -o ps1b
+% ./ps1b
 Enter your starting annual salary:​ 120000
 Enter the percent of your salary to save, as a decimal:​ .05
 Enter the cost of your dream home: ​500000
@@ -152,7 +141,8 @@ Number of months:​ 142
 
 **Test Case 2**
 ```
-% go run main.go  ps1b
+% gcc ps1b.c -o ps1b
+% ./ps1b
 Enter your starting annual salary:​ 80000
 Enter the percent of your salary to save, as a decimal:​ .1
 Enter the cost of your dream home: ​800000
@@ -162,7 +152,8 @@ Number of months:​ 159
 
 **Test Case 3**
 ```
-% go run main.go  ps1b
+% gcc ps1b.c -o ps1b
+% ./ps1b
 Enter your starting annual salary:​ 75000
 Enter the percent of your salary to save, as a decimal:​ .05
 Enter the cost of your dream home:​ 1500000
@@ -171,20 +162,20 @@ Number of months:​ 261
 ```
 **Code:**
 ```
-	portion_down_payment := .25 * total_cost
-	current_savings := 0.0
-	r := 0.04
-	months := 0
-
-	// do the iteration to calculate number of months recuired for downpayment
-	for current_savings < portion_down_payment {
-		current_savings = current_savings + (current_savings * r / 12) + (portion_saved * monthly_salary)
-		months += 1
-		if months%6 == 0 {
-			monthly_salary = monthly_salary * (1 + semi_annual_raise)
-		}
-	}
-	fmt.Println("Number of months:", months)
+    float current_savings , portion_down_payment , monthly_salary;
+    current_savings = 0 ;
+    portion_down_payment =.25 * total_cost ;
+    monthly_salary = annual_salary/12;
+    int months = 0;
+    float r = 0.04; //intrest rate
+    while (current_savings <= portion_down_payment) {
+        months += 1;
+        current_savings = current_savings + (current_savings * r/12) + (portion_saved * monthly_salary);
+        if (months%6==0) {
+            monthly_salary = monthly_salary*(1+semi_annual_raise);
+        } 
+    }
+    printf("Number of months: %d\n", months);
 ```
 
 
@@ -224,7 +215,8 @@ should print out a decimal (e.g. 0.0704 for 7.04%).
 
 **Test Case 1**
 ```
-% go run main.go  ps1c
+% gcc ps1c.c -o ps1c
+% ./ps1c
 Enter the starting salary:​ 150000
 Best savings rate:​ 0.4411
 Steps in bisection search:​ 12
@@ -232,7 +224,8 @@ Steps in bisection search:​ 12
 
 **Test Case 2**
 ```
-% go run main.go  ps1c
+% gcc ps1c.c -o ps1c
+% ./ps1c
 Enter the starting salary:​ 300000
 Best savings rate:​ 0.2206
 Steps in bisection search:​ 9
@@ -240,54 +233,43 @@ Steps in bisection search:​ 9
 
 **Test Case 3**
 ```
-% go run main.go  ps1c
+% gcc ps1c.c -o ps1c
+% ./ps1c
 Enter the starting salary:​ 10000
 It is not possible to pay the down payment in three years.
 ```
 
 **Code:**
 ```
-calulate_dp_savings_diff := func(savings_rate int, salary float64) float64 {
-		current_savings := 0.0
-		months := 0
+    //accumulators 
+    int steps = 0;
+    float dp_savings_diff = down_payment;
 
-		for months < 36 {
-			return_on_investment := current_savings * r / 12
-			portion_monthly_salary := float64(savings_rate) * salary / 120000
-			current_savings += return_on_investment + portion_monthly_salary
-			months += 1
-			if months%6 == 0 {
-				salary *= 1 + semi_annual_raise
-			}
-		}
-		return down_payment - current_savings
-	}
+    if (calculate_dp_savings_diff(max_savings_rate,annual_salary)>0) {
+        printf("It is not possible to pay the down payment in three years.\n");
+        return 0;
+    }
 
-	if calulate_dp_savings_diff(max_savings_rate, annual_salary) > 0 {
-		fmt.Println("It is not possible to pay the down payment in three years.")
-		return
-	}
-
-	// start finding a savings rate when the savings amount is within $100 from
+    // start finding a savings rate when the savings amount is within $100 from
 	// the down payment, or the algorithm cannot find a more precise savings rate
 	// since the savings rate is limited to 2 decimal places.
-	var mp_savings_rate int
-	var min_diff, mp_diff float64
-	for dp_savings_diff > 100 && max_savings_rate-min_savings_rate > 1 {
-		mp_savings_rate = int((min_savings_rate + max_savings_rate) / 2)
-		min_diff = calulate_dp_savings_diff(min_savings_rate, annual_salary)
-		mp_diff = calulate_dp_savings_diff(mp_savings_rate, annual_salary)
+    int mp_savings_rate;
+    float min_diff , mp_diff;
+    while (dp_savings_diff> 100 && max_savings_rate-min_savings_rate>1){
+        mp_savings_rate= (int)((min_savings_rate+max_savings_rate)/2);
+        min_diff = calculate_dp_savings_diff(min_savings_rate,annual_salary);
+        mp_diff = calculate_dp_savings_diff(mp_savings_rate,annual_salary);
 
-		if (min_diff > 0) == (mp_diff > 0) {
-			min_savings_rate = mp_savings_rate
-		} else {
-			max_savings_rate = mp_savings_rate
-		}
-		steps += 1
-		dp_savings_diff = math.Abs(mp_diff)
-	}
-	fmt.Printf("Best svaings rate: %.4f\n", float64(mp_savings_rate)/10000)
-	fmt.Println("Steps in bisection search: ", steps)
+        if((min_diff > 0)== (mp_diff > 0)) {
+            min_savings_rate= mp_savings_rate;
+        }else{
+            max_savings_rate = mp_savings_rate;
+        }
+        steps++;
+        dp_savings_diff = fabs(mp_diff);
+    }
+    printf("Best savings rate: %.4f\n", (float)(mp_savings_rate)/10000);
+    printf("Steps in bisection search: %d\n",steps);
 ```
 
 
