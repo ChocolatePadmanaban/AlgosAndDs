@@ -35,7 +35,7 @@ func ps1a() {
 		return
 	}
 
-	// Print the float value
+	// Convert to monthy Salary
 	monthly_salary := annual_salary / 12
 
 	// Prompt the user for input
@@ -82,7 +82,7 @@ func ps1b() {
 		return
 	}
 
-	// Print the float value
+	// Convert to monthly salary
 	monthly_salary := annual_salary / 12
 
 	// Prompt the user for input
