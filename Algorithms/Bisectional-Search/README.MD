@@ -14,6 +14,8 @@ cd $ALGOS_DS_REPO/Algorithms/Bisectional-Search
 - If you do do a Linear search (for or while loop) it would take `n` times for the algorithm to find the answer
 - But if you do Bisectional Search it would take only `log(n) to the base 2` times to find the value
 - why `log(n) to the base 2` ? every time we are dividing the desion list by 2 so 
+
+
 ```
 2 ^ (no of steps ) =  Length of the Sorted Array
 
@@ -21,7 +23,11 @@ cd $ALGOS_DS_REPO/Algorithms/Bisectional-Search
 
 where n = Length of the Sorted Array
 ```
+
+
 - note : if we get no of sets as float value then we have to take next integers
+
+
 ```
 example:
 >>> math.log(10000,2)
@@ -33,6 +39,8 @@ where as in normal linear check it would take 10000(at most) and 5000(mean) step
 
 
 ## Python Code 
+
+
 
 ```
 def bisect_search(L,e):
@@ -61,12 +69,16 @@ if __name__ == "__main__":
     print(bisect_search([i for i in range(10000,20001)], 15001))
 
 ```
+
+
 **Explaination:**
 - we are searching for 15001 in a list of [10000 to 20000] it took only 13 steps to find the answer
 - where as in Linear search it would have taken 5001 steps to find the answer
 
 
 **Output:**
+
+
 ```
 $ python bisectional-search.py 
 This is step  1 high mid and low values are 20000 15000 10000
@@ -90,11 +102,15 @@ This is step  12 high mid and low values are 15003 15002 15001
 - The Algorithm should exit gracefully, stating the value not present
 
 **Code:**
+
+
 ```
 print(bisect_search([i for i in range(10000,20001)], 35001))
 ```
 
 **Output:**
+
+
 ```
 $ python bisectional-search.py 
 This is step  1 high mid and low values are 20000 15000 10000
