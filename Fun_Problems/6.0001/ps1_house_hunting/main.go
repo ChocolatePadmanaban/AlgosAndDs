@@ -178,13 +178,21 @@ func ps1c() {
 	// the down payment, or the algorithm cannot find a more precise savings rate
 	// since the savings rate is limited to 2 decimal places.
 	var mp_savings_rate int
-	var min_diff, mp_diff float64
+	var mp_diff float64
+
+	// note the conditions down payment savings difference should be greater than 100 else it would exit
+	// there should be atlease .01% difference in min and max savings rate
 	for dp_savings_diff > 100 && max_savings_rate-min_savings_rate > 1 {
+		// mid point savings rate
 		mp_savings_rate = int((min_savings_rate + max_savings_rate) / 2)
-		min_diff = calulate_dp_savings_diff(min_savings_rate, annual_salary)
 		mp_diff = calulate_dp_savings_diff(mp_savings_rate, annual_salary)
 
-		if (min_diff > 0) == (mp_diff > 0) {
+		// to under stand better uncomment this lines
+		// fmt.Println("Present Step is :", steps+1)
+		// fmt.Println("min savings rate , mp savings rate and max savings rate are", min_savings_rate, mp_savings_rate, max_savings_rate)
+		// fmt.Println(" mp_diff is", mp_diff)
+
+		if mp_diff > 0 {
 			min_savings_rate = mp_savings_rate
 		} else {
 			max_savings_rate = mp_savings_rate
