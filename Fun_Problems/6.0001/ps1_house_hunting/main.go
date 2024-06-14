@@ -184,7 +184,7 @@ func ps1c() {
 	// there should be atlease .01% difference in min and max savings rate
 	for dp_savings_diff > 100 && max_savings_rate-min_savings_rate > 1 {
 		// mid point savings rate
-		mp_savings_rate = int((min_savings_rate + max_savings_rate) / 2)
+		mp_savings_rate = int((min_savings_rate + max_savings_rate) / 2) // mid-point savings rate
 		mp_diff = calulate_dp_savings_diff(mp_savings_rate, annual_salary)
 
 		// to under stand better uncomment this lines
@@ -193,9 +193,9 @@ func ps1c() {
 		// fmt.Println(" mp_diff is", mp_diff)
 
 		if mp_diff > 0 {
-			min_savings_rate = mp_savings_rate
+			min_savings_rate = mp_savings_rate // as down-payment is higher than savings we are increasing the savings-rate by setting mp-savings rate to min-savings rate
 		} else {
-			max_savings_rate = mp_savings_rate
+			max_savings_rate = mp_savings_rate // as savings is higher than downpayment we are decreasing the savings rate by setting mp-savings-rate as max-savings rate
 		}
 		steps += 1
 		dp_savings_diff = math.Abs(mp_diff)
