@@ -60,10 +60,9 @@ int main() {
     float min_diff , mp_diff;
     while (dp_savings_diff> 100 && max_savings_rate-min_savings_rate>1){
         mp_savings_rate= (int)((min_savings_rate+max_savings_rate)/2);
-        min_diff = calculate_dp_savings_diff(min_savings_rate,annual_salary);
         mp_diff = calculate_dp_savings_diff(mp_savings_rate,annual_salary);
 
-        if((min_diff > 0)== (mp_diff > 0)) {
+        if(mp_diff > 0) {
             min_savings_rate= mp_savings_rate;
         }else{
             max_savings_rate = mp_savings_rate;
