@@ -10,6 +10,7 @@ layout: default
 
 ### O(log n) algorithms
 - [Bisectional Search python](./Algorithms/Bisectional-Search/README.html)
+- [Bisectional Search golang](./Algorithms/Bisectional-Search/README_GOLANG.html)
 
 
 ## Fun Problems
